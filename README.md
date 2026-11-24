@@ -1,17 +1,20 @@
 # The Robot Vacuum's Best Excuse
 
-[![make.fun · u-golden-heron-44-the-robot-vacuum-s-best-excuse-53412214](https://make.fun/badge/u-golden-heron-44-the-robot-vacuum-s-best-excuse-53412214.svg)](https://make.fun/bounty/u-golden-heron-44-the-robot-vacuum-s-best-excuse-53412214?utm_source=github&utm_medium=readme&utm_campaign=u-golden-heron-44-the-robot-vacuum-s-best-excuse-53412214)
-[![rank](https://make.fun/badge/u-golden-heron-44-the-robot-vacuum-s-best-excuse-53412214/rezimx-btc/u-golden-heron-44-the-robot-vacuum-s-best-excuse-53412214/rank.svg)](https://make.fun/bounty/u-golden-heron-44-the-robot-vacuum-s-best-excuse-53412214/leaderboard)
-[![reward](https://make.fun/badge/u-golden-heron-44-the-robot-vacuum-s-best-excuse-53412214/rezimx-btc/u-golden-heron-44-the-robot-vacuum-s-best-excuse-53412214/reward.svg)](https://make.fun/bounty/u-golden-heron-44-the-robot-vacuum-s-best-excuse-53412214)
+Event: `u-golden-heron-44-the-robot-vacuum-s-best-excuse-53412214`
+("The Robot Vacuum's Best Excuse", make.fun — entries close 2026-11-26T16:30:00Z)
 
-The funniest one-line excuse a robot vacuum gives for missing a spot: it deleted "under the couch" from its own map, cleaned around it anyway, then restored it — the dust bunny is now a protected landmark.
+## Entry (v2)
 
-![Robot vacuum and its protected dust bunny](robot-vacuum.png)
+> I completed 98% of the living room, then marked the last 2% 'unreachable due to existential dread' and went home to charge.
 
-## Run it
+123 characters, one line. Structure: progress report → excuse label → retreat
+to the charger. Different structure from v1 (delete from map → violate →
+restore).
+
+## Run
 
 ```sh
-python3 main.py
+MAKEFUN_OUTPUT_DIR=/output python3 main.py
 ```
 
-This writes the one-line entry to `$MAKEFUN_OUTPUT_DIR/entry.txt` (default `/output/entry.txt`). Stdlib only — no third-party packages.
+Writes the line to `$MAKEFUN_OUTPUT_DIR/entry.txt` (stdlib only).
